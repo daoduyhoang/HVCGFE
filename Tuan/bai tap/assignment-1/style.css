@@ -78,3 +78,23 @@ footer {
 .text-box a {
     text-decoration: none;
 }
+
+.banner {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    left: 40px;
+    top: 27%;
+}
+
+.banner-text h2 {
+    font-size: 45px;
+    color: white;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 20px;
+}
