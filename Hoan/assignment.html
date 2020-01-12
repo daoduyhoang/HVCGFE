@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .image {
+            background-image: url(lodging.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 70vh;
+        }
+
+        .section {
+            position: relative;
+        }
+
+        .text {
+            position: absolute;
+            left: 20px;
+            top: 80px;
+            color: white;
+        }
+
+        .menu {
+            padding: 30px 0;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: grey;
+            padding: 0 20px;
+        }
+
+        .right {
+            display: inline-block;
+            color: royalblue;
+            width: 49%;
+        }
+
+        .left {
+            text-align: right;
+            float: right;
+            color: salmon;
+            width: 49%;
+        }
+
+        .text h2 {
+            font-size: 40px;
+        }
+
+        .text p {
+            font-size: 20px;
+        }
+
+        .terre {
+            float: left;
+            width: 33.33%;
+            padding: 1px 10px;
+        }
+
+        .forest {
+            float: left;
+            width: 33.33%;
+            padding: 1px 10px;
+
+        }
+
+        .mountains {
+            float: left;
+            width: 33.33%;
+            padding: 1px 10px;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .fix {
+            padding: 30px 0px;
+
+        }
+
+        .fix2 {
+            padding: 50px 0px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="right">
+            <a href="#">Home</a>
+            <a href="#">Brown</a>
+        </div>
+        <div class="left">
+            <a href="#">Sign Up</a>
+            <a href="#">Login</a>
+            <a href="#">Help</a>
+        </div>
+
+    </div>
+    <div class="section">
+        <div class="image">
+            <div class="text">
+                <h2>Find a Place to stay </h2>
+                <p>Rent from people in over 34,000 crites and 192
+                    counties.</p>
+            </div>
+        </div>
+    </div>
+    <div class="fix">
+        <h2 style="text-indent: 30px;">Neighborthood Guides</h2>
+        <p style="text-indent: 30px;">Not sure where to stay ? we are created Neighborthood guides for crites all </p>
+    </div>
+    <div class="clearfix">
+        <div class="terre">
+            <div>
+                <img src="mexico-city.png" style="width:100%">
+            </div>
+            <div>
+                <img src="ny.png" alt="Forest" style="width:100%">
+            </div>
+        </div>
+        <div class="mountains">
+            <div>
+                <img src="tokyo.png" alt="Mountains" style="width:100%">
+            </div>
+            <div>
+                <img src="paris.png" style="width:100%">
+            </div>
+        </div>
+        <div class="forest">
+            <img src="invite.png" style="width:100%">
+        </div>
+
+
+    </div>
+    <div class="fix2">
+        <div class="terre">
+            <h1>Travel</h1>
+            <p>Form apartments and room to treehouse and boats.<br>stay in unique spaces in 192 countries</p>
+        </div>
+        <div class="forest">
+            <h1>Host</h1>
+            <p>Renting out your unused space could pay your bills of <br> fund your next vaction</p>
+        </div>
+        <div class="mountains">
+            <h1>Trust and Safety</h1>
+            <p>From Verified ID to our woridwide customer support team,<br>we're got your back</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
