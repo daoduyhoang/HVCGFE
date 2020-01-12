@@ -1,0 +1,3 @@
+Hoàn thành bài assignment (làm lại) 
+Code giao diện màu hồng(ảnh)
+- Yêu cầu: dùng float, đẩy lên github khi làm xong,deadline thứ 2 tuần sau (gửi bài trước buổi học bắt đầu) 
