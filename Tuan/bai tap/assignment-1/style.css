@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    color: grey;
+    padding: 20px 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a:hover {
+    background-color: hotpink;
+}
+
+.banner {
+    background-image: url(images/lodging.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+main {
+    background-color: gray;
+}
+
+.section-content {
+    padding: 20px 0px;
+}
+
+.section-content h2 {
+    padding-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery-image {
+    width: 33%;
+}
+
+.gallery-image .focus {
+    padding-bottom: 25px;
+}
+
+footer {
+    background-color: rgb(153, 147, 147);
+}
+
+.text {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.text-box {
+    width: 33%;
+}
+
+.text-box p {
+    padding: 10px 0px;
+}
+
+.text-box a {
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    left: 40px;
+    top: 27%;
+}
+
+.banner-text h2 {
+    font-size: 45px;
+    color: white;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 20px;
+}
