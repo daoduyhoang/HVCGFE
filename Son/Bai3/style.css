@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+  }
+  [class*='col']{
+    /* border: 1px solid #000; */
+    height: 150px;
+    float: left;
+  }
+  .col-4{
+    width: 33.333%;
+    height: 300px;
+  }
+  .col-6{
+    width: 50%;
+    margin-right: 0%;
+  }
+  .col-12{
+      width: 100%;
+      height: 15px;
+  }
+.row1{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row2{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  #logo-kenh14{
+    width: 80px;
+    height: 90px;
+    float: left;
+  }
+  #img-kenh14{
+    width: 99%;
+    height: 150px;
+    float: right;
+  }
+
+  .button{
+    border-radius: 2px;
+  }
+h4{
+    margin-bottom: 8px;
+}
+  p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: lighter;
+      color: gray;
+      display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  a{
+      text-decoration: none;
+      font-size: 13px;
+      color: #000;
+  }
