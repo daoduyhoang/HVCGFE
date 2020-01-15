@@ -1,0 +1,83 @@
+.*{
+	margin: 0;
+	padding: 0;
+	
+}
+#footer{
+	width: auto;
+	height: auto;
+	margin: auto;
+	/*position: relative;*/
+}
+#row:after{
+	display: block;
+	content: "";
+	clear: both;
+	padding-bottom: 20px;
+}
+.col{
+	width: 100%;
+	/*border: 1px solid;*/
+	height: 100px;
+	float: left;
+}
+.col-45{
+	width: 45%;
+}
+.col-33{
+	width: 30%;
+	height: auto;
+}
+.box{
+	padding: 10px;
+}
+.box1{
+	border: 1px #7D7D7D solid;
+	height: auto;
+}
+.box2{
+}
+.box3{
+}
+.box4{
+ border-left: 1px #e7e7e7 solid;
+}
+.box5{
+ border-left: 1px #e7e7e7 solid;
+}
+.icon{
+	background-image: url(https://vccorp.mediacdn.vn/vccorp-s.png);
+	width: 100px;
+    height: 49px;
+    display: block;
+}
+a{
+	text-decoration: none;
+	font: inherit;
+}
+img{
+	width: 100%;
+	height:100%;
+	background-size: cover;
+}
+.logo{
+	display: block;
+    width: 60px;
+    height: 90px;
+	background-image: url(logok14.png);
+	float: left;
+	margin-right: 10px;
+}
+.btn{
+	border: 1px #e7e7e7 solid;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	padding: 5px;
+	height: auto;
+}
+.btn:hover{
+	background-color: #f5f5f5;
+}
+.under-line:hover{
+	text-decoration: underline;
+}
