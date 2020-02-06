@@ -5,100 +5,93 @@
     font-family: arial;
     font-weight: bold;
     color: white;
-    background-color: #FF9999;
+    background-color: #F27B73;
 }
 
 .container {
-    width: 1000px;
+    width: 960px;
     height: 100%;
-    margin: 200px auto;
+    margin: 0px auto;
     overflow: auto;
-    /*   border: 1px solid #000; */
-}
-
-.row1:before {
-    content: '';
-    display: block;
-    clear: both;
+    /* border: 1px solid #000; */
 }
 
 [class*='col'] {
     /*   border: 1px solid #000; */
-    height: 50px;
+    height: 75px;
     float: left;
 }
 
-.col-1 {
-    width: 8.333%;
-}
-
-.col-2 {
-    width: 16.666%;
-}
-
 .col-3 {
-    width: 25%;
+    width: 23%;
     height: 100%;
+    border: 5px solid #FF827D;
+    background-color: #E6655F;
 }
 
 .col-4 {
     width: 33.333%
 }
 
-.col-5 {
-    width: 41.666%;
-}
-
 .col-6 {
     width: 50%;
-}
-
-.col-7 {
-    width: 58.333%;
-}
-
-.col-8 {
-    width: 66.666%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.333%;
-}
-
-.col-11 {
-    width: 91.666%;
 }
 
 .col-12 {
     width: 100%;
     height: 100%;
-    font-size: 50px;
+    font-size: 84px;
+    margin: auto;
 }
 
 .col-12r4 {
     width: 100%;
     height: 50px;
-    background-color: #04B45F;
+    background-color: #2AA28E;
 }
 
-img {
-    width: 100%;
+button {
+    background-color: #F27B73;
+    width: 19%;
+    height: 100%;
+    /* border: 1px solid #000; */
+    border-style: none;
+    margin-right: 0px;
+    padding: 30px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #E6655F;
+}
+
+.img {
+    /* width: 100%; */
     display: block;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto 30px;
+    background-color: #E6655F;
 }
 
-.h-100 {
-    height: 102px;
+hr {
+    border: 2px solid #2AA28E;
 }
 
-a {
-    margin: 20px;
-    text-decoration: none;
+i {
+    margin: 30px 5px;
+    font-size: 30px;
 }
 
-a:hover {
-    background-color: #FA5858;
+#tamgiac {
+    width: 0;
+    height: 0;
+    left: 50%;
+    border-left: 17.5px solid transparent;
+    border-right: 17.5px solid transparent;
+    border-top: 20px solid #F27B73;
+    position: absolute;
+    background-color: #2AA28E;
+    text-align: center;
 }
