@@ -79,9 +79,9 @@ li a.active {
     text-align: center;
 }
 
-ul.list-image li img {
+div.list-image .col img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
 }
 
@@ -90,7 +90,7 @@ ul.list-image li img {
     flex-wrap: wrap;
 }
 
-ul.list-image li {
+div.list-image .col {
     flex: 1 1 25%;
 }
 
