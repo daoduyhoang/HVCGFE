@@ -50,12 +50,12 @@ a:hover {
     width: 100%;
     height: 100%;
     padding: 50px;
-    background-color: #F6F6F6;
+    background-color: gray;
 }
 
 #titlep1 {
     font-family: Nunito Sans;
-    color: #000;
+    color: whitesmoke;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -63,50 +63,78 @@ a:hover {
 
 #titlep2 {
     font-family: Nunito Sans;
-    color: #959595;
+    color: whitesmoke;
     text-align: center;
     margin-top: 25px;
 }
 
-.row {
+.banner2 {
+    padding: 40px 40px;
     width: 100%;
     height: 100%;
+    background-color: #00C3BC;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.block {
-    width: 25%;
-    /* height: 100%; */
+.banner2block {
+    width: 10%;
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-}
-
-.contentimg {
-    width: 100%;
-    height: 100%;
-}
-
-.contentimg:hover+i {
-    opacity: 0.5;
-    transition-delay: 0.5s;
-    visibility: visible;
-}
-
-i:hover {
-    opacity: 0.5;
-    transition-delay: 0.5s;
-    visibility: visible;
+    /* border: 1px solid #000; */
 }
 
 i {
-    display: block;
-    visibility: hidden;
-    position: absolute;
-    color: black;
-    font-size: 50px;
+    padding: 5px;
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+
+/* .number {
+    padding: 5px;
+    color: whitesmoke;
+} */
+
+.num {
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: whitesmoke;
+}
+
+.text {
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+
+.contentimg {
+    width: 40%;
+    height: 100%;
+}
+
+.contenttxt {
+    padding: 100px 50px;
+    width: 40%;
+    height: 100%;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p2 {
+    padding: 20px 0px;
+    color: gray;
 }
 
 .footer {
