@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: Nunito Sans;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3BCEC8;
+}
+
+.headera {
+    color: #000;
+}
+
+.headerli {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 11px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px 60px;
+}
+
+.logo {
+    width: 350px;
+    height: 100%;
+}
+
+.menu {
+    width: 350px;
+    height: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background-color: #F6F6F6;
+}
+
+#titlep1 {
+    font-family: Nunito Sans;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#titlep2 {
+    font-family: Nunito Sans;
+    color: #959595;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentimg {
+    width: 100%;
+    height: 100%;
+}
+
+.contentimg:hover+i {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+i {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    color: black;
+    font-size: 50px;
+}
+
+.footer {
+    padding: 50px 0px;
+    display: flex;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.footerli {
+    list-style: none;
+}
+
+.block1 {
+    padding: 0px 50px;
+    font-family: Nunito Sans;
+    width: 40%;
+    height: 100%;
+    border: 1px solid #000;
+    display: flex;
+}
+
+.block2 {
+    font-family: Nunito Sans;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.block3 {
+    width: 10%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.block4 {
+    width: 15%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.block5 {
+    width: 15%;
+    height: 100%;
+    border: 1px solid #000;
+}
