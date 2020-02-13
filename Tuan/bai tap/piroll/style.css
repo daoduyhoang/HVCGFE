@@ -1,0 +1,138 @@
+/* ========= GLOBALL CSS ========= */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+
+/* =========== HEADER ========== */
+
+#header {
+    padding: 35px 0px;
+    background-color: #fff;
+}
+
+.wrapper-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.main-menu li {
+    display: inline-block;
+    padding: 0px 17px;
+}
+
+ul.main-menu li a:not(.active) {
+    display: block;
+    color: #191919;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+li a.active {
+    display: block;
+    color: #10c9c3;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+/* ============= ARTICLE ===========  */
+
+#content {
+    background-color: #f6f6f6;
+    padding: 50px 0px;
+}
+
+.mb-25 {
+    /* margin-bottom: 25px; */
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 82px;
+}
+
+.f-18 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul.list-image li img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.list-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.list-image li {
+    flex: 1 1 25%;
+}
+
+
+/* ========== FOOTER  ============== */
+
+#footer {
+    background-color: #141414;
+    padding: 70px 0px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.copy-right {
+    flex: 1 1 65%;
+}
+
+.contact {
+    flex: 1 1 35%;
+}
+
+.piroll {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.color-grey {
+    color: #bcbcbc;
+    font-size: 15px;
+}
+
+.email-phone {
+    margin-right: 50px;
+}
+
+.services {
+    margin-right: 30px;
+}
+
+.news {
+    margin-right: 50px;
+}

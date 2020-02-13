@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equal Height</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .row {
+            position: relative;
+        }
+        
+        .row:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        
+        .box {
+            float: left;
+            width: 33.333%;
+            position: absolute;
+            height: 100%;
+        }
+        
+        .box:nth-child(1) {
+            background-color: red;
+        }
+        
+        .box:nth-child(2) {
+            background-color: yellow;
+            left: 33.333%;
+        }
+        
+        .box:nth-child(3) {
+            background-color: green;
+            position: relative;
+            left: 66.666%;
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, maiores labore! Provident voluptas est, debitis dolore animi iste doloribus odio.
+            </div>
+            <div class="box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab sit illo labore rem sint asperiores rerum? Pariatur obcaecati autem repudiandae consequuntur optio, voluptas provident saepe possimus fugiat voluptates omnis esse quia inventore cumque, nam
+                id aspernatur, nesciunt quisquam quibusdam. Dolores.
+            </div>
+            <div class="box">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo expedita quis ullam, voluptas dignissimos fuga quasi consequatur odit incidunt numquam velit nostrum dolore totam officiis architecto. Eum natus cupiditate earum voluptas, suscipit provident
+                impedit, ipsam libero iure odit, quis et dolor ducimus. Neque provident, quam repudiandae sequi illum pariatur unde porro, ullam voluptatibus quidem aliquam praesentium! Quia illo asperiores quos.
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
