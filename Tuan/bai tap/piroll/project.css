@@ -84,11 +84,12 @@ li a.active {
 #light-break {
     display: flex;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: rgb(239, 240, 239);
 }
 
-.light-break-text {
-    padding-left: 90px;
+#light-break .container {
+    display: flex;
+    align-items: center;
 }
 
 .break-title {
