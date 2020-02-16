@@ -80,7 +80,7 @@ li a.active {
 
 /* ============ ARTICLE ============== */
 
-article {
+.text-article {
     background-color: #3e3e3e;
     padding: 100px 0px;
 }
