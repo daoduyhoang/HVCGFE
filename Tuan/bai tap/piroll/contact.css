@@ -1,0 +1,200 @@
+/* ========= GLOBALL CSS ========= */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/* =========== HEADER ========== */
+
+#header {
+    padding: 35px 0px;
+    background-color: #fff;
+}
+
+.wrapper-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.main-menu li {
+    display: inline-block;
+    padding: 0px 17px;
+}
+
+ul.main-menu li a:not(.active) {
+    display: block;
+    color: #191919;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+li a.active {
+    display: block;
+    color: #10c9c3;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+/* ================== CONTACT ================= */
+
+#contact {
+    background-color: #f5f5f5;
+    padding: 50px 0px;
+}
+
+.contact-text {
+    flex: 37%;
+    padding-right: 40px;
+}
+
+form {
+    flex: 63%;
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+.color-black {
+    color: #171717;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.color-grey {
+    color: #787878;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+input {
+    border: none;
+}
+
+textarea {
+    border: none;
+    resize: none;
+}
+
+button {
+    border: none;
+}
+
+.info input {
+    padding: 20px;
+    width: 48.5%;
+}
+
+#name {
+    margin-right: 15px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #787878;
+}
+
+.input-comment textarea::placeholder {
+    font-size: 16px;
+    color: #787878;
+}
+
+.input-title input {
+    padding: 20px;
+    width: 100%;
+}
+
+.input-comment textarea {
+    padding: 20px;
+    width: 100%;
+}
+
+.bg-blue {
+    background-color: #10c9c3;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+button {
+    padding: 20px 35px;
+    cursor: pointer;
+}
+
+
+/* ========== FOOTER  ============== */
+
+#footer {
+    background-color: #141414;
+    padding: 70px 0px;
+}
+
+.copy-right {
+    flex: 1 1 55%;
+}
+
+.contact {
+    flex: 1 1 45%;
+}
+
+.piroll {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.color-grey {
+    color: #bcbcbc;
+    font-size: 15px;
+}
+
+.email-phone {
+    margin-right: 50px;
+}
+
+.services {
+    margin-right: 30px;
+}
+
+.news {
+    margin-right: 50px;
+}
