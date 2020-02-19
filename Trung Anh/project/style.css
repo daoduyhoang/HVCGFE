@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', 'Work Sans', 'Montserrat';
+}
+
+.header {
+    padding: 20px 0;
+    width: 100%;
+}
+
+.header .container{
+    margin: auto;
+    width: 90%;
+    height: 30px;
+}
+
+.header .container ul{
+    list-style-type: none;
+}
+
+.header .container li{
+    display: inline-block;
+}
+
+.header .container a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+}
+
+.header .container a:hover{
+    color: #31cdc9;
+}
+
+.header .container .menu-left{
+    float: left;
+}
+
+.header .container .menu-right{
+    float: right;
+}
+
+.content-1{
+    display: flex;
+}
+
+.content-1 .block-1{
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+.content-1 .block-1 .container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-1 .block-1, .content-1 .block-2{
+    width: 50%;
+}
+
+.content-1 .block-1 .container{
+    width: 80%;
+    margin: auto;
+}
+
+.content-1 .block-1 .container p{
+    color: #a4a4a4;
+}
+
+.content-1 .block-1 .container .col-1{
+    padding: 0 10px 0 0;
+}
+
+.content-1 .block-1 .container .col-1 p{
+    color: black;
+}
+
+
+.content-1 .block-1 .container .col-1, .content-1 .block-1 .container .col-2{
+    float: left;
+}
+
+.content-2{
+    padding: 20px 0;
+}
+
+.content-2 .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.content-2 .container .block-1, .content-2 .container .block-2, .content-2 .container .block-3{
+    width: 33%;
+}
+
+.content-2 .container .block-1 .col-1, .content-2 .container .block-1 .col-2{
+    float: left;
+}
+
+.content-2 .container .block-3 .col-1, .content-2 .container .block-3 .col-2{
+    float: left;
+}
+
+.footer{
+    background-color: black;
+    color: #a4a4a4;
+    display: flex;
+    padding: 20px 0;
+}
+
+.footer h1{
+    color: #ffffff;
+}
+
+.footer .container{
+    border: 1px solid black;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+
+.footer .container ul{
+    list-style-type: none;
+}
+
+.footer .footer-left{
+    width: 30%;
+    float: left;
+}
+
+.footer .footer-right{
+    width: 70%;
+    float: left;
+    padding: 0 20px;
+}
+
+.footer .footer-right .block-1, .footer .footer-right .block-2,.footer .footer-right .block-3{
+    width: 33%;
+    float: left;
+    padding: 0 20px;
+}
+
+.footer .footer-right .block-2 .col-1, .footer .footer-right .block-2 .col-2{
+    width: 50%;
+    float: left;
+}
