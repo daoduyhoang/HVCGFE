@@ -10,6 +10,12 @@
     float: left;
 }
 
+[class*='row']:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .col-4mid {
     width: 33.333%;
     height: auto;
@@ -91,4 +97,22 @@ a {
 
 .row2 {
     height: 500px;
+}
+
+@media(max-width:992px) {
+    .col-4mid {
+        width: 50%;
+    }
+    .col-4bot {
+        width: 50%;
+    }
+}
+
+@media(max-width:576px) {
+    .col-4mid {
+        width: 100%;
+    }
+    .col-4bot {
+        width: 100%;
+    }
 }

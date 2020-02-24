@@ -24,18 +24,18 @@ a:hover {
 .headerli {
     list-style: none;
     display: inline-block;
-    padding: 0px 11px;
+    padding: 0% 5%;
 }
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    padding: 40px 5%;
+    padding: 4% 7%;
 }
 
 .logo {
-    padding: 0% 2%;
     width: 40%;
     height: 100%;
 }
@@ -55,14 +55,14 @@ a:hover {
 .banner {
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: 4% 7%;
     background-color: #F6F6F6;
 }
 
 #titlep1 {
     font-family: Nunito Sans;
     color: #000;
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
 }
@@ -88,6 +88,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .contentimg {
@@ -95,28 +96,49 @@ a:hover {
     height: 100%;
 }
 
-.contentimg:hover+i {
+.block:hover.block:before {
     opacity: 0.5;
     transition-delay: 0.5s;
-    visibility: visible;
+    display: block;
 }
 
-i:hover {
+.block:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #21bfb9;
     opacity: 0.5;
-    transition-delay: 0.5s;
+    position: absolute;
+}
+
+
+/* i:hover {
+    opacity: 0.5;
+    transition-delay: 0.2s;
     visibility: visible;
+    position: absolute;
+} */
+
+.block:hover i {
+    opacity: 0.5;
+    transition-delay: 0.1s;
+    visibility: visible;
+    position: absolute;
 }
 
 i {
     display: block;
     visibility: hidden;
     position: absolute;
-    color: black;
-    font-size: 50px;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
 }
 
 .footer {
-    padding: 50px 0px;
+    padding: 4% 7%;
     display: flex;
     background-color: black;
     color: #F6F6F6;
@@ -127,7 +149,7 @@ i {
 }
 
 .block1 {
-    padding: 0px 7%;
+    padding: 0% 0%;
     font-family: Nunito Sans;
     width: 40%;
     height: 100%;
@@ -162,4 +184,106 @@ i {
     height: 100%;
     color: #787878;
     border: 1px solid #000;
+}
+
+@media(max-width: 992px) {
+    .block {
+        width: 50%;
+        /* height: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .footer {
+        padding: 4% 7%;
+        display: flex;
+        background-color: black;
+        color: #F6F6F6;
+        flex-wrap: wrap;
+    }
+    .block1 {
+        font-family: Nunito Sans;
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid #000; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .block2 {
+        padding: 2% 0%;
+        font-family: Nunito Sans;
+        width: 100%;
+        height: 100%;
+        color: #787878;
+        /* border: 1px solid #000; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .block3 {
+        width: 33%;
+        height: 100%;
+        color: #787878;
+        /* border: 1px solid #000; */
+        display: flex;
+        justify-content: center;
+    }
+    .block4 {
+        padding: 0% 7%;
+        width: 33%;
+        height: 100%;
+        color: #787878;
+        /* border: 1px solid #000; */
+        display: flex;
+        justify-content: center;
+    }
+    .block5 {
+        padding: 0% 7%;
+        width: 33%;
+        height: 100%;
+        color: #787878;
+        /* border: 1px solid #000; */
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 760px) {
+    .block {
+        width: 100%;
+        /* height: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 30px 7%;
+    }
+    .logo {
+        padding: 5% 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .headerli {
+        list-style: none;
+        display: inline-block;
+        padding: 0% 5%;
+    }
 }
