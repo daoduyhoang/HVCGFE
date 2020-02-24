@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    color: whitesmoke;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: initial;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1581272408424-5077d06e8322?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.header {
+    padding: 4% 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #000; */
+}
+
+.leftheader {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #000; */
+}
+
+.headerul {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 {
+    width: 100%;
+    height: 100%;
+    padding: 2% 5%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.row2 {
+    width: 100%;
+    height: 100%;
+    padding: 2.5% 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.row2txt {
+    font-size: 4rem;
+}
+
+.row3 {
+    width: 100%;
+    height: 100%;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding: 0% 5%;
+    background-color: #1A1A1A;
+    position: relative;
+}
+
+.circlecontainer {
+    width: 100%;
+    height: 100%;
+    padding: 2% 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.circle1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle3 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle {
+    background-image: url(https://images.unsplash.com/photo-1543359196-d78ffb6a3285?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    border: 1px solid whitesmoke;
+}
+
+.text {
+    background-color: #1A1A1A;
+    padding: 0;
+    text-align: center;
+}
+
+@media(max-width: 1500px) {
+    .left {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        /* border: 1px solid #000; */
+    }
+    .right {
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid #000; */
+    }
+    .circlecontainer {
+        width: 100%;
+        height: 100%;
+        padding: 2% 0%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .circle1 {
+        width: 100%;
+        height: 100%;
+        padding: 1%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .circle2 {
+        width: 100%;
+        height: 100%;
+        padding: 1%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .circle3 {
+        width: 100%;
+        height: 100%;
+        padding: 1%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
