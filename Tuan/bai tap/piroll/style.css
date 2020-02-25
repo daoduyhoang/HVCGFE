@@ -29,6 +29,7 @@ ul li a {
 
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -99,6 +100,38 @@ div.list-image .col {
     position: relative;
 }
 
+i {
+    font-size: 20px;
+    color: white;
+}
+
+.col i {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    margin-left: -8px;
+    display: none;
+}
+
+.col:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #21bfb9;
+    opacity: .3;
+    position: absolute;
+    display: none;
+}
+
+.col:hover.col:before {
+    display: block;
+}
+
+.col:hover.col i {
+    display: block;
+}
+
 
 /* ========== FOOTER  ============== */
 
@@ -138,34 +171,38 @@ div.list-image .col {
     margin-right: 50px;
 }
 
-i {
-    font-size: 20px;
-    color: white;
+@media(max-width:768px) {
+    #header {
+        padding: 35px 20px;
+    }
+    div.list-image .col {
+        flex: 1 1 50%;
+    }
+    .copy-right {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    .email-phone {
+        flex: 1 1 100%;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .services,
+    .news,
+    .social {
+        padding: 0px 20px;
+        flex: 1 1 25%;
+    }
+    .mb-15 {
+        margin-bottom: 15px;
+    }
 }
 
-.col i {
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    margin-left: -8px;
-    display: none;
-}
-
-.col:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    display: block;
-    background: #21bfb9;
-    opacity: .3;
-    position: absolute;
-    display: none;
-}
-
-.col:hover.col:before {
-    display: block;
-}
-
-.col:hover.col i {
-    display: block;
+@media(max-width:486px) {
+    .pd-10 {
+        padding: 0px 10px;
+    }
+    div.list-image .col {
+        flex: 1 1 100%;
+    }
 }
