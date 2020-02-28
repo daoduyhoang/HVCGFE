@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header {
+    padding: 25px 0px;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    color: #bdbdbd;
+}
+
+.nav .nav-item {
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group .form-control {
+    border-radius: 25px;
+}
+
+i.fas.fa-search {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -8px;
+    color: #bdbdbd;
+}
+
+i.fas.fa-bars,
+i.fas.fa-user,
+i.fas.fa-shopping-cart {
+    font-size: 30px;
+}
+
+i.fas.fa-user,
+i.fas.fa-shopping-cart {
+    color: #bdbdbd;
+}
+
+i.fas.fa-user {
+    margin: 0px 20px;
+}
+
+
+/* =================== BANNER ================= */
+
+#slider .col-lg-12 {
+    padding: 0px;
+}
+
+.carousel-banner {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin-top: -60px;
+    color: white;
+}
+
+.carousel-banner p {
+    width: 700px;
+}
+
+.carousel-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #bdbdbd;
+    opacity: 0.3;
+    position: absolute !important;
+}
+
+.carousel-banner a.detail {
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    padding: 15px 0px;
+    display: block;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* ============== ORDER =========== */
+
+#order {
+    padding: 80px 0px;
+}
+
+.container h2::after {
+    border-bottom: 3px solid #2f9dea;
+    width: 85px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+
+/* =============PLUGIN============== */
+
+#plugin {
+    background-color: #f5f5f5;
+}
+
+#plugin img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* =================Giới thiệu ================ */
+
+#introduce {
+    padding: 80px 0;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.col-lg-6 {
+    flex: 50%;
+}
+
+.col-lg-6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.row .col-lg-6 a {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    padding: 15px 0px;
+    display: block;
+    background-color: #2f9dea;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* ==========ITEMS=========== */
+
+#items {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+#items .row a.fashion {
+    width: 200px;
+    border: 1px solid #e1e1e1;
+    display: block;
+    padding: 5px 0px;
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+#items .row a.fashion:hover {
+    text-decoration: none;
+    background-color: #2f9dea;
+    color: white;
+}
+
+.card {
+    flex: 20%;
+    text-align: center;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+#items .row .card {
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+#items .row .card:nth-child(8) {
+    margin-right: 0px;
+}
+
+#items .row .card:nth-child(4) {
+    margin-right: 0px;
+}
+
+#items .row .btn-detail {
+    border: 1px solid #555555;
+    display: inline-block;
+    padding: 15px 45px;
+    color: #555555;
+    margin-top: 20px;
+}
+
+
+/* ===================REVIEWS================ */
+
+#reviews {
+    padding: 80px 0px;
+}
+
+#reviews .card {
+    flex: 30%;
+    margin-right: 20px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#reviews .card:last-child {
+    margin-right: 0px;
+}
+
+#reviews .card img {
+    width: 100px;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+
+/* ===========STATISTIC============ */
+
+#statistic {
+    padding: 80px 0px;
+    background-image: url("../images/rectangle.png"), url("../images/thongke.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center center, center center;
+}
+
+.color-while {
+    color: #fff;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.col-lg-4 span {
+    font-size: 30px;
+}
+
+
+/* ===============FOOTER============== */
+
+#footer {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: black;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ebebeb;
+}
+
+nav .lorem li {
+    margin-left: 20px;
+}
+
+p>i {
+    margin-right: 15px;
+}
+
+
+/* ==============COPY-RIGHT============  */
+
+#copy-right {
+    padding: 20px 0px;
+    color: #151515;
+}
+
+#copy-right .row .feedback {
+    background-color: #2f9dea;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.fa-envelope {
+    margin-right: 5px;
+    background-color: #0f8ee8;
+    color: white;
+}
