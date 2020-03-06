@@ -291,3 +291,135 @@ p>i {
     background-color: #0f8ee8;
     color: white;
 }
+
+
+/* ===================INFORMA==================== */
+
+#banner-intro {
+    background-image: url("../images/banner-intro-opacity.png"), url("../images/banner-intro.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center center, center center;
+    margin-bottom: 30px;
+}
+
+.banner-intro-content {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.banner-intro-content h1 {
+    color: white;
+}
+
+.banner-intro-content p {
+    color: #999999;
+}
+
+nav.nav-menu {
+    margin-bottom: 20px;
+}
+
+nav.nav-menu .menu {
+    list-style: none;
+}
+
+nav.nav-menu .menu li a {
+    color: #555555;
+}
+
+nav.nav-menu .menu li i {
+    margin-right: 13px;
+}
+
+.bor p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+.bor p::after {
+    border-bottom: 3px solid #339fea;
+    content: "";
+    display: block;
+    width: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+nav .list-images {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .list-images li {
+    flex: 50%;
+    padding: 10px 10px 0px 0px;
+}
+
+nav .list-images li a img {
+    width: 100%;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.infor-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* ==============CONTACT ================= */
+
+#banner-contact {
+    background-image: url("../images/banner-intro-opacity.png"), url("../images/banner-intro.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center center, center center;
+}
+
+.gmap {
+    background-image: url(../images/map.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.form-group.form-control {
+    border-radius: 0px !important;
+}
+
+.contact-us {
+    padding: 20px;
+}
+
+.contact-us form {
+    padding: 30px;
+}
+
+.contact-us .container {
+    border: 1px solid #f4f4f4;
+}
+
+.form-right {
+    background-color: #339fea;
+    height: 100%;
+    color: white;
+    padding: 30px 20px;
+}
+
+.form-right p:first-child {
+    font-size: 25px;
+    font-weight: bold;
+}
